@@ -46,3 +46,14 @@
 	<stdio.h>
 	"../Employee/employee.h"
 
+1665604633 source:c:\users\caiod\desktop\prova dois aedsii\p2\selectionmethod\selecnatural.c
+	"../Employee/employee.h"
+	"../FuncAux/leRegEmployee.h"
+	"../FuncAux/salvaRegistro.h"
+	"../FuncAux/tamArq.h"
+
+1665604849 source:c:\users\caiod\desktop\prova dois aedsii\p2\funcaux\printid.c
+	"../Employee/employee.h"
+	"leRegEmployee.h"
+	"tamArq.h"
+
