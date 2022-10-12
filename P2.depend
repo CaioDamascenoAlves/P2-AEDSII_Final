@@ -1,7 +1,13 @@
 # depslib dependency file v1.0
-1584205420 source:c:\users\caiod\desktop\prova dois aedsii\p2\main.c
+1665608397 source:c:\users\caiod\desktop\prova dois aedsii\p2\main.c
 	<stdio.h>
 	<stdlib.h>
+	"FuncAux/embaralhaVet.h"
+	"FuncAux/baseDeDados.h"
+	"Employee/employee.h"
+	"MetodosBusca/buscaBinaria.h"
+	"SelectionMethod/s.h"
+	"SelectionMethod/selecSubs.h"
 
 1665602063 source:c:\users\caiod\desktop\prova dois aedsii\p2\funcaux\reservatorio.c
 	"reservatorio.h"
@@ -56,4 +62,27 @@
 	"../Employee/employee.h"
 	"leRegEmployee.h"
 	"tamArq.h"
+
+1665605411 source:c:\users\caiod\desktop\prova dois aedsii\p2\selectionmethod\selecsubs.c
+	"../Employee/employee.h"
+	"../FuncAux/tamArq.h"
+	"../FuncAux/leRegEmployee.h"
+	"../FuncAux/salvaRegistro.h"
+	"../FuncAux/reservatorio.h"
+
+1665603950 c:\users\caiod\desktop\prova dois aedsii\p2\funcaux\embaralhavet.h
+
+1665602449 c:\users\caiod\desktop\prova dois aedsii\p2\funcaux\basededados.h
+
+1665604295 c:\users\caiod\desktop\prova dois aedsii\p2\metodosbusca\buscabinaria.h
+	<stdio.h>
+
+1665604761 c:\users\caiod\desktop\prova dois aedsii\p2\selectionmethod\s.h
+
+1665607033 c:\users\caiod\desktop\prova dois aedsii\p2\selectionmethod\selecsubs.h
+	<stdio.h>
+
+1665608369 source:c:\users\caiod\desktop\prova dois aedsii\p2\metodosbusca\buscasequencial.c
+	"../Employee/employee.h"
+	"../FuncAux/leRegEmployee.h"
 
