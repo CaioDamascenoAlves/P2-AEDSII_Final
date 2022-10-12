@@ -36,3 +36,13 @@
 
 1665603554 c:\users\caiod\desktop\prova dois aedsii\p2\funcaux\tamarq.h
 
+1665603933 source:c:\users\caiod\desktop\prova dois aedsii\p2\funcaux\embaralhavet.c
+
+1665604252 source:c:\users\caiod\desktop\prova dois aedsii\p2\metodosbusca\buscabinaria.c
+	"../Employee/employee.h"
+	"../FuncAux/leRegEmployee.h"
+
+1665603597 c:\users\caiod\desktop\prova dois aedsii\p2\funcaux\leregemployee.h
+	<stdio.h>
+	"../Employee/employee.h"
+
