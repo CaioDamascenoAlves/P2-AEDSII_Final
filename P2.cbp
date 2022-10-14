@@ -31,6 +31,61 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Employee/employee.h" />
+		<Unit filename="FuncAux/baseDeDados.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FuncAux/baseDeDados.h" />
+		<Unit filename="FuncAux/embaralhaVet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FuncAux/embaralhaVet.h" />
+		<Unit filename="FuncAux/leRegEmployee.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FuncAux/leRegEmployee.h" />
+		<Unit filename="FuncAux/printEmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FuncAux/printEmp.h" />
+		<Unit filename="FuncAux/printID.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FuncAux/printID.h" />
+		<Unit filename="FuncAux/reservatorio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FuncAux/reservatorio.h" />
+		<Unit filename="FuncAux/salvaRegistro.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FuncAux/salvaRegistro.h" />
+		<Unit filename="FuncAux/tamArq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="FuncAux/tamArq.h" />
+		<Unit filename="MetodosBusca/buscaBinaria.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MetodosBusca/buscaBinaria.h" />
+		<Unit filename="MetodosBusca/buscaSequencial.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MetodosBusca/buscaSequencial.h" />
+		<Unit filename="ProcedimentosPrincipais/encontraArquivo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ProcedimentosPrincipais/procedimentoFileIfNotNull.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SelectionMethod/s.h" />
+		<Unit filename="SelectionMethod/selecNatural.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SelectionMethod/selecSubs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="SelectionMethod/selecSubs.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

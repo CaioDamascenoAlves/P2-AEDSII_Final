@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1665608397 source:c:\users\caiod\desktop\prova dois aedsii\p2\main.c
+1665763236 source:c:\users\caiod\desktop\prova dois aedsii\p2\main.c
 	<stdio.h>
 	<stdlib.h>
 	"FuncAux/embaralhaVet.h"
@@ -85,4 +85,10 @@
 1665608369 source:c:\users\caiod\desktop\prova dois aedsii\p2\metodosbusca\buscasequencial.c
 	"../Employee/employee.h"
 	"../FuncAux/leRegEmployee.h"
+
+1665762452 source:c:\users\caiod\desktop\prova dois aedsii\p2\procedimentosprincipais\procedimentofileifnotnull.c
+	"../Employee/employee.h"
+
+1665763174 source:c:\users\caiod\desktop\prova dois aedsii\p2\procedimentosprincipais\encontraarquivo.c
+	"../Employee/employee.h"
 
