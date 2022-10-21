@@ -64,6 +64,30 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="FuncAux/tamArq.h" />
+		<Unit filename="Hash/CreateDataBase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Hash/CreateDataBase.h" />
+		<Unit filename="Hash/DeleteHashTable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Hash/DeleteHashTable.h" />
+		<Unit filename="Hash/HashTable .c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Hash/HashTable .h" />
+		<Unit filename="Hash/InsertHashTable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Hash/InsertHashTable.h" />
+		<Unit filename="Hash/MakePartitionHashTable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Hash/MakePartitionHashTable.h" />
+		<Unit filename="Hash/SearchHashTable.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Hash/SearchHashTable.h" />
 		<Unit filename="MetodosBusca/buscaBinaria.c">
 			<Option compilerVar="CC" />
 		</Unit>

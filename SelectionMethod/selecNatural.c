@@ -2,6 +2,7 @@
 #include "../FuncAux/leRegEmployee.h"
 #include "../FuncAux/salvaRegistro.h"
 #include "../FuncAux/tamArq.h"
+
 int naturalSelection(FILE *file, char nameFilePartition[]) {
 
     int  sizeFileAux = tamArq(file, 0), position = 0, numberOfPartition = 0, smallElement = 999999999, smallElementPosition = 0, sizeReservoir = 0, flag = 0;
