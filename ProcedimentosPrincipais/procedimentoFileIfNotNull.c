@@ -48,7 +48,7 @@ void procedimento_File_If_Not_Null(void){
                 fclose(arq);
 
                 exit(0);
-            }else{
+            }else if (sortingMethod == 5){
                 int numberOfPartition;
                 char partitionName[100];
                 char str1[100];
@@ -62,14 +62,15 @@ void procedimento_File_If_Not_Null(void){
 
                 printf("Hash Table Successfully Created");
 
-                int flagAux = 0;
+                int pickAux = 0;
 
-                while (flagAux != 5) {
+                 while (pickAux != 5) {
 
                     printf("\n\nInput an option: \n 1 - Insert Employee; \n 2 - Search Employee; \n 3 - Delete Employee; \n 4 - Print Employee IDs; \n 5 - Close program. \n ----> ");
-                    scanf("%i", &flagAux);
+                    scanf("%i", &pickAux);
 
-                    if (flagAux == 1) {
+
+                    if (pickAux == 1) {
                         int employeeID;
                         int partitionID;
 
@@ -102,7 +103,7 @@ void procedimento_File_If_Not_Null(void){
                         insertHashTable(&funcHashIsert, employeeID, partitionID);
 
 
-                    } else if (flagAux == 2) {
+                    } else if (pickAux == 2) {
 
                         int employeeID;
                         int partitionID;
@@ -120,7 +121,7 @@ void procedimento_File_If_Not_Null(void){
                             printf("\nEmployee id not found");
                         }
 
-                    } else if (flagAux == 3) {
+                    } else if (pickAux == 3) {
 
                         int employeeID;
                         int partitionID;
@@ -132,7 +133,7 @@ void procedimento_File_If_Not_Null(void){
 
                         deleteHashTable(employeeID, partitionID);
 
-                    } else if (flagAux == 4) {
+                    } else if (pickAux == 4) {
 
                         for (int i = 0; i < numberOfPartition; ++i) {
 
@@ -151,9 +152,10 @@ void procedimento_File_If_Not_Null(void){
                         printf("Closing...");
                     }
 
+
+                }
                 fclose(arq);
                 return 0;
-            }
             }
 
             free(emp);

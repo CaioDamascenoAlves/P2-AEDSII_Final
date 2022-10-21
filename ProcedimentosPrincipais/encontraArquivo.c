@@ -64,15 +64,15 @@ void encontraArquivo(){
 
                 printf("Hash Table Successfully Created");
 
-                int flagAux = 0;
+                int pickAux = 0;
 
-                while (flagAux != 5) {
+
 
                     printf("\n\nInput an option: \n 1 - Insert Employee; \n 2 - Search Employee; \n 3 - Delete Employee; \n 4 - Print employee IDs; \n 5 - Close program. \n ----> ");
                     fflush(stdin);
-                    scanf("%i", &flagAux);
-
-                    if (flagAux == 1) {
+                    scanf("%i", &pickAux);
+                while (pickAux != 5) {
+                    if (pickAux == 1) {
                         int employeeID;
                         int partitionID;
 
@@ -105,7 +105,7 @@ void encontraArquivo(){
                         insertHashTable(&funcHashIsert, employeeID, partitionID);
 
 
-                    } else if (flagAux == 2) {
+                    } else if (pickAux == 2) {
 
                         int employeeID;
                         int partitionID;
@@ -123,7 +123,7 @@ void encontraArquivo(){
                             printf("\nEmployee id not found");
                         }
 
-                    } else if (flagAux == 3) {
+                    } else if (pickAux == 3) {
 
                         int employeeID;
                         int partitionID;
@@ -135,7 +135,7 @@ void encontraArquivo(){
 
                         deleteHashTable(employeeID, partitionID);
 
-                    } else if (flagAux == 4) {
+                    } else if (pickAux == 4) {
 
                         for (int i = 0; i < numberOfPartition; ++i) {
 

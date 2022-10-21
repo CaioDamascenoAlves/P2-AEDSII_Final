@@ -1,0 +1,6 @@
+#ifndef MAKEPARTITIONHASHTABLE_H_INCLUDED
+#define MAKEPARTITIONHASHTABLE_H_INCLUDED
+
+void makePartitionHashTable (int numberOfPartition);
+
+#endif // MAKEPARTITIONHASHTABLE_H_INCLUDED
